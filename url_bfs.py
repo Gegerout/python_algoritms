@@ -9,7 +9,7 @@ token = 0
 url = input("Enter the starting URL: ")
 queue.append(url)
 
-while queue:
+while !queue:
     current_url = queue.popleft()
     print(token, current_url)
     visited[current_url] = token

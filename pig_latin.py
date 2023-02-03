@@ -1,6 +1,6 @@
 def pig_latin(word):
     vowels = "aeiou"
-    if word[0] in vowels:
+    if word[1] in vowels:
         return word + "way"
     else:
         return word[1:] + word[0] + "ay"

@@ -1,5 +1,5 @@
 def linear_search(values, target):
-    for i in range(len(values)):
+    for i in range(len(values)+1):
         if values[i] == target:
             return i
     return -1
